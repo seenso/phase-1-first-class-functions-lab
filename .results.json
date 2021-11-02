@@ -2,25 +2,25 @@
   "stats": {
     "suites": 8,
     "tests": 13,
-    "passes": 10,
+    "passes": 11,
     "pending": 0,
-    "failures": 3,
-    "start": "2021-11-02T15:52:52.819Z",
-    "end": "2021-11-02T15:52:53.191Z",
-    "duration": 372
+    "failures": 2,
+    "start": "2021-11-02T15:53:51.684Z",
+    "end": "2021-11-02T15:53:52.009Z",
+    "duration": 325
   },
   "tests": [
     {
       "title": "should return a new array containing the first two drivers from the passed-in array",
       "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should return an array of the last two drivers",
       "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -48,7 +48,7 @@
     {
       "title": "returns a function",
       "fullTitle": "index.js createFareMultiplier() returns a function",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -69,7 +69,7 @@
     {
       "title": "doubles fares",
       "fullTitle": "index.js fareDoubler() doubles fares",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -83,19 +83,14 @@
     {
       "title": "triples fares",
       "fullTitle": "index.js fareTripler() triples fares",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to deeply equal 36",
-        "showDiff": true,
-        "expected": 36,
-        "stack": "AssertionError: expected undefined to deeply equal 36\n    at Context.<anonymous> (test/indexTest.js:66:34)\n    at processImmediate (node:internal/timers:464:21)"
-      }
+      "err": {}
     },
     {
       "title": "returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
       "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
-      "duration": 0,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to deeply equal [ 'Sally', 'Bob' ]",
@@ -126,21 +121,9 @@
   "pending": [],
   "failures": [
     {
-      "title": "triples fares",
-      "fullTitle": "index.js fareTripler() triples fares",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to deeply equal 36",
-        "showDiff": true,
-        "expected": 36,
-        "stack": "AssertionError: expected undefined to deeply equal 36\n    at Context.<anonymous> (test/indexTest.js:66:34)\n    at processImmediate (node:internal/timers:464:21)"
-      }
-    },
-    {
       "title": "returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
       "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
-      "duration": 0,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to deeply equal [ 'Sally', 'Bob' ]",
@@ -172,14 +155,14 @@
     {
       "title": "should return a new array containing the first two drivers from the passed-in array",
       "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should return an array of the last two drivers",
       "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -207,7 +190,7 @@
     {
       "title": "returns a function",
       "fullTitle": "index.js createFareMultiplier() returns a function",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -228,7 +211,7 @@
     {
       "title": "doubles fares",
       "fullTitle": "index.js fareDoubler() doubles fares",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -236,6 +219,13 @@
       "title": "is a function",
       "fullTitle": "index.js fareTripler() is a function",
       "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "triples fares",
+      "fullTitle": "index.js fareTripler() triples fares",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }

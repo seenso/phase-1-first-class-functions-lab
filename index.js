@@ -19,6 +19,8 @@ const fareDoubler = (fare) => {
   return createFareMultiplier(2)(fare);
 };
 
-const fareTripler = () => {};
+const fareTripler = (fare) => {
+  return createFareMultiplier(3)(fare);
+};
 
 let selectDifferentDrivers = (arrayOfDrivers, func) => {};
