@@ -23,4 +23,6 @@ const fareTripler = (fare) => {
   return createFareMultiplier(3)(fare);
 };
 
-let selectDifferentDrivers = (arrayOfDrivers, func) => {};
+let selectDifferentDrivers = (arrOfDrivers, func = returnFirstTwoDrivers || returnLastTwoDrivers) => {
+  return func(arrOfDrivers);
+};
