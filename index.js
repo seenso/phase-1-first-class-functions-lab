@@ -15,7 +15,9 @@ let createFareMultiplier = (num) => {
   }
 };
 
-const fareDoubler = () => {};
+const fareDoubler = (fare) => {
+  return createFareMultiplier(2)(fare);
+};
 
 const fareTripler = () => {};
 

@@ -2,12 +2,12 @@
   "stats": {
     "suites": 8,
     "tests": 13,
-    "passes": 9,
+    "passes": 10,
     "pending": 0,
-    "failures": 4,
-    "start": "2021-11-02T15:43:44.710Z",
-    "end": "2021-11-02T15:43:45.046Z",
-    "duration": 336
+    "failures": 3,
+    "start": "2021-11-02T15:52:52.819Z",
+    "end": "2021-11-02T15:52:53.191Z",
+    "duration": 372
   },
   "tests": [
     {
@@ -48,7 +48,7 @@
     {
       "title": "returns a function",
       "fullTitle": "index.js createFareMultiplier() returns a function",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -62,7 +62,7 @@
     {
       "title": "is a function",
       "fullTitle": "index.js fareDoubler() is a function",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -71,12 +71,7 @@
       "fullTitle": "index.js fareDoubler() doubles fares",
       "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to deeply equal 20",
-        "showDiff": true,
-        "expected": 20,
-        "stack": "AssertionError: expected undefined to deeply equal 20\n    at Context.<anonymous> (test/indexTest.js:56:34)\n    at processImmediate (node:internal/timers:464:21)"
-      }
+      "err": {}
     },
     {
       "title": "is a function",
@@ -100,7 +95,7 @@
     {
       "title": "returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
       "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to deeply equal [ 'Sally', 'Bob' ]",
@@ -131,18 +126,6 @@
   "pending": [],
   "failures": [
     {
-      "title": "doubles fares",
-      "fullTitle": "index.js fareDoubler() doubles fares",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to deeply equal 20",
-        "showDiff": true,
-        "expected": 20,
-        "stack": "AssertionError: expected undefined to deeply equal 20\n    at Context.<anonymous> (test/indexTest.js:56:34)\n    at processImmediate (node:internal/timers:464:21)"
-      }
-    },
-    {
       "title": "triples fares",
       "fullTitle": "index.js fareTripler() triples fares",
       "duration": 0,
@@ -157,7 +140,7 @@
     {
       "title": "returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
       "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the first two drivers when passed returnFirstTwoDrivers() as the second argument",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to deeply equal [ 'Sally', 'Bob' ]",
@@ -224,7 +207,7 @@
     {
       "title": "returns a function",
       "fullTitle": "index.js createFareMultiplier() returns a function",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -238,6 +221,13 @@
     {
       "title": "is a function",
       "fullTitle": "index.js fareDoubler() is a function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "doubles fares",
+      "fullTitle": "index.js fareDoubler() doubles fares",
       "duration": 1,
       "currentRetry": 0,
       "err": {}
